@@ -1,0 +1,95 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  width: 13em;
+  height: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.head {
+  width: inherit;
+  height: 150px;
+  background: #263238;
+  border-bottom: 1px solid #00695C;
+}
+
+.logo-container {
+  width: 150px;
+  height: 103px;
+  top: 30px;
+  left: 28px;
+  position: absolute;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 2px solid #009688;
+}
+
+.name {
+  font-weight: normal;
+  font-size: 1em;
+  text-align: center;
+  color: #009688;
+}
+
+.nav-items {
+  width: inherit;
+  height: 100vh;
+  background: #37474F;
+}
+
+.nav-items ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items ul li {
+  position: relative;
+  top: 20px;
+  left: 33px;
+  margin-bottom: 15px;
+}
+
+.nav-items ul li a {
+  text-decoration: none;
+  color: #B2DFDB;
+  opacity: 0.6;
+}
+
+.material-icons {
+  top: 48px;
+  position: relative;
+  color: #B2DFDB;
+  opacity: 0.6;
+}
+
+.content {
+  height: 100vh;
+  background: #424242;
+  box-shadow: 0 -2px 5px black;
+  flex: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.page {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  flex: auto;
+}
